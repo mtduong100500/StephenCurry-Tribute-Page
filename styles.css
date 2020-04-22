@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #f4f4f4;
+}
+.hero-quote {
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+  position: relative;
+  left: 15%;
+}
+.quote {
+  position: relative;
+  left: 10%;
+}
+
+.timeline {
+  float: left;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+table {
+  border-collapse: collapse;
+}
+
+.table,
+tr,
+td {
+  border: 1px solid grey;
+  margin: 40px;
+  padding: 10px;
+  font-size: 18px;
+  width: 400px;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+h4 {
+  text-align: center;
+  margin: 10px;
+}
+ul {
+  margin-left: 20px;
+}
+.profile {
+  float: right;
+  margin: 15px;
+  font-size: 18px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.hero-image {
+  width: 70%;
+  height: 50%;
+}
