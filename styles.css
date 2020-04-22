@@ -9,36 +9,32 @@
 
 body {
   font-family: "Dosis", sans-serif;
-  background-color: #f4f4f4;
+  background-color: #c1c0b9;
 }
-.hero-quote {
-  font-family: "Pacifico", cursive;
-  font-size: 18px;
-  position: relative;
-  left: 15%;
-}
+
 .quote {
-  position: relative;
-  left: 10%;
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  text-align: center;
 }
 
 .timeline {
   float: left;
   padding-top: 50px;
-  padding-left: 100px;
+  padding-left: 50px;
+  font-size: 20px;
 }
 table {
   border-collapse: collapse;
 }
 
-.table,
+table,
 tr,
 td {
   border: 1px solid grey;
-  margin: 40px;
-  padding: 10px;
-  font-size: 18px;
-  width: 400px;
+  margin: 55px;
+  padding: 20px;
+  width: 735px;
 }
 h1 {
   text-align: center;
@@ -52,17 +48,20 @@ h4 {
   margin: 10px;
 }
 ul {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 .profile {
   float: right;
-  margin: 15px;
-  font-size: 18px;
-  padding-right: 100px;
-  padding-top: 30px;
+  margin-left: auto;
+  font-size: 20px;
+  padding-right: 50px;
+  padding-top: 40px;
 }
 
 .hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
   height: 50%;
 }
